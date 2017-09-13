@@ -1,0 +1,130 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 28 physical / 28 logical HMMs
+Label file will be used to align each file
+Aligning File: ../train/mfcc/sample1.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END AMATHANNA EKA DEKA THUNA HATHARA PAHA HAYA HATHA ATA NAWAYA BINDUWA SENT-END  ==  [822 frames] -59.3731 [Ac=-48804.7 LM=0.0] (Act=10.4)
+Aligning File: ../train/mfcc/sample2.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END AMATHANNA EKA THUNA PAHA HATHA NAWAYA BINDUWA DEKA HATHARA HAYA ATA SENT-END  ==  [803 frames] -60.0602 [Ac=-48228.4 LM=0.0] (Act=10.2)
+Aligning File: ../train/mfcc/sample3.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END AMATHANNA BINDUWA NAWAYA HATHA PAHA THUNA EKA ATA HAYA HATHARA SENT-END  ==  [779 frames] -58.1712 [Ac=-45315.3 LM=0.0] (Act=10.7)
+Aligning File: ../train/mfcc/sample4.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END AMATHANNA EKA EKA DEKA DEKA THUNA THUNA HATHARA HATHARA PAHA PAHA SENT-END  ==  [830 frames] -58.6852 [Ac=-48708.7 LM=0.0] (Act=11.3)
+Aligning File: ../train/mfcc/sample5.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END AMATHANNA HAYA HAYA HATHA HATHA ATA ATA NAWAYA NAWAYA BINDUWA BINDUWA SENT-END  ==  [807 frames] -58.1185 [Ac=-46901.6 LM=0.0] (Act=12.5)
+Aligning File: ../train/mfcc/sample6.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END KATHAA SAMAN KASUN AMATHANNA SAMAN KASUN SENT-END  ==  [406 frames] -59.7611 [Ac=-24263.0 LM=0.0] (Act=8.8)
+Aligning File: ../train/mfcc/sample7.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END KATHAA SAMAN AMATHANNA SAMAN KATHAA KASUN AMATHANNA KASUN SENT-END  ==  [525 frames] -61.0558 [Ac=-32054.3 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample8.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END KATHAA KATHAA SAMAN SAMAN AMATHANNA AMATHANNA KASUN KASUN SENT-END  ==  [533 frames] -60.2554 [Ac=-32116.1 LM=0.0] (Act=11.9)
+Aligning File: ../train/mfcc/sample9.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END MANINNA NIDAHASA SAHA NIDAHASA MANINNA SENT-END  ==  [371 frames] -59.5556 [Ac=-22095.1 LM=0.0] (Act=8.6)
+Aligning File: ../train/mfcc/sample10.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END PAMINILI YAANAYA ELAWUMA PAHADILI SENT-END  ==  [296 frames] -62.2483 [Ac=-18425.5 LM=0.0] (Act=9.4)
+Aligning File: ../train/mfcc/sample11.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PUSTHAKA KAMAL ANIL KENYAAWA SATHIYA SENT-END  ==  [365 frames] -62.1228 [Ac=-22674.8 LM=0.0] (Act=9.8)
+Aligning File: ../train/mfcc/sample12.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PATIYA YATA NAWENAWA BANDA DATHTHA SENT-END  ==  [335 frames] -62.2958 [Ac=-20869.1 LM=0.0] (Act=12.9)
+Aligning File: ../train/mfcc/sample13.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END AWASAN MEHEYUMA APA SAMAGIN EKWA SENT-END  ==  [374 frames] -60.1327 [Ac=-22489.6 LM=0.0] (Act=9.9)
+Aligning File: ../train/mfcc/sample14.mfc
+Created lattice with 6 nodes / 5 arcs from label file
+SENT-END KAALAYA KETHARAM NAPURUDA SONDURIYA SENT-END  ==  [311 frames] -63.2655 [Ac=-19675.6 LM=0.0] (Act=10.3)
+Aligning File: ../train/mfcc/sample15.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END OBE NIL NUWAN THALAAWEE SITINNA PODDAK SENT-END  ==  [411 frames] -61.1251 [Ac=-25122.4 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample16.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END OBA ENNA SULANGE DAWATILAA MAA INNE OBA DAN EI KIYAA SENT-END  ==  [605 frames] -59.5467 [Ac=-36025.7 LM=0.0] (Act=10.0)
+Aligning File: ../train/mfcc/sample17.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END UDARATA KANDUKARAYEE GAMANAK YANA KAALAYEE SENT-END  ==  [404 frames] -61.5185 [Ac=-24853.5 LM=0.0] (Act=9.5)
+Aligning File: ../train/mfcc/sample18.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END MEE NIHANDA RAATHRIYE OBA HAA ATHINATH ARAN YAMUDO SANGAWEELA SENT-END  ==  [685 frames] -59.2505 [Ac=-40586.6 LM=0.0] (Act=9.4)
+Aligning File: ../train/mfcc/sample19.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END JAATHIYE PINATA PAHALA WUU EE MAHAA UTHTHAMAYAANO SAMUGATHTHOYA SENT-END  ==  [633 frames] -58.5411 [Ac=-37056.5 LM=0.0] (Act=9.0)
+Aligning File: ../train/mfcc/sample20.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END INGURU DEE MIRIS GATHTHAA WAGE KIYAA KIYAMANAK THIBE SENT-END  ==  [584 frames] -61.0627 [Ac=-35660.6 LM=0.0] (Act=9.0)
+Aligning File: ../train/mfcc/sample21.mfc
+Created lattice with 14 nodes / 13 arcs from label file
+SENT-END PUNCHI SITHE PUNCHI SINAA WEL IPANALLE RANCHU GASEE HAADA WELAA MAL HASARALLE SENT-END  ==  [919 frames] -60.4490 [Ac=-55552.6 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample22.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END MEE SAWUMYA RAATHRIYA GEWILAA AMERIKAAWE JANAPATHI HILARI WELAA SENT-END  ==  [642 frames] -60.2499 [Ac=-38680.4 LM=0.0] (Act=8.1)
+Aligning File: ../train/mfcc/sample23.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END SANDA RENU GALANA SANDA RAEKA SIHINAYAKA SENT-END  ==  [516 frames] -60.7864 [Ac=-31365.8 LM=0.0] (Act=9.9)
+Aligning File: ../train/mfcc/sample24.mfc
+Created lattice with 7 nodes / 6 arcs from label file
+SENT-END PAATA PODAK THILAKALAA NALAL THALAAWEE SENT-END  ==  [403 frames] -61.1374 [Ac=-24638.4 LM=0.0] (Act=10.3)
+Aligning File: ../train/mfcc/sample25.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END WANDANAAWE YAMU PEWILAA THISARANA SEELE WANDINTAA WANDINTAA RAMYA ATAMASTHAANE SENT-END  ==  [821 frames] -60.2591 [Ac=-49472.7 LM=0.0] (Act=8.3)
+Aligning File: ../train/mfcc/sample26.mfc
+Created lattice with 12 nodes / 11 arcs from label file
+SENT-END MATA AALOKE GENA DEWI SANSAARAYE OBE AALOKE MAMA NEDA SANSAARAYE SENT-END  ==  [895 frames] -58.5600 [Ac=-52411.2 LM=0.0] (Act=8.0)
+Aligning File: ../train/mfcc/sample27.mfc
+Created lattice with 11 nodes / 10 arcs from label file
+SENT-END RAN DAEKATHI GENA SARASENAWAA RATHRAN PATI INA WATA DILISENAWAA SENT-END  ==  [868 frames] -63.2585 [Ac=-54908.4 LM=0.0] (Act=12.8)
+Aligning File: ../train/mfcc/sample28.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END PAANA WAGE PENA HEENE PAATA PABALU MAALA BANDE SENT-END  ==  [683 frames] -59.2724 [Ac=-40483.1 LM=0.0] (Act=9.5)
+Aligning File: ../train/mfcc/sample29.mfc
+Created lattice with 13 nodes / 12 arcs from label file
+SENT-END MEE LOWA MAA SATHU AE SATHU EE NETHU ASALWAASIYAKU SOYANU DANE SENT-END  ==  [995 frames] -59.7388 [Ac=-59440.1 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample30.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END HABALE GAMBURU HANDA SAMAGAMA GODATA WADI SENT-END  ==  [474 frames] -61.1896 [Ac=-29003.9 LM=0.0] (Act=10.2)
+Aligning File: ../train/mfcc/sample31.mfc
+Created lattice with 9 nodes / 8 arcs from label file
+SENT-END AARTHIKA THATHWAYA MATHA SIYALU AAPANASAALA WASAA DAMEE SENT-END  ==  [602 frames] -60.9291 [Ac=-36679.3 LM=0.0] (Act=8.8)
+Aligning File: ../train/mfcc/sample32.mfc
+Created lattice with 10 nodes / 9 arcs from label file
+SENT-END JANA NAAYAKAIN JAATHIKA WEERAYIN SEMA JALAYA SE JEEWAMAANAI SENT-END  ==  [717 frames] -59.2100 [Ac=-42453.6 LM=0.0] (Act=7.9)
+Aligning File: ../train/mfcc/sample33.mfc
+Created lattice with 8 nodes / 7 arcs from label file
+SENT-END ONNA CHAMARA PANCHI OTHANA MANCHI OHOMA SENT-END  ==  [454 frames] -60.0863 [Ac=-27279.2 LM=0.0] (Act=9.0)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
